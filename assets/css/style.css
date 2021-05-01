@@ -251,7 +251,7 @@ h3:hover, h5:hover {
 }
 
 .socials .ico-circle:hover {
-  background-color: #FEB857;
+  background-color: black;
   color: #fff;
   box-shadow: 0 0 0 3px #e99b30;
   transition: all 500ms ease;
@@ -1212,7 +1212,8 @@ h3:hover, h5:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #FEB857;
+  background: black;
+  box-shadow: 0 0 0 3px #e99b30 ;
 }
 
 @-webkit-keyframes animate-loading {
