@@ -185,8 +185,9 @@ h3:hover, h5:hover {
 }
 
 .line-mf {
+  display: flex;
   width: 40px;
-  height: 5px;
+  height: 5px; 
   background-color: #FEB857;
   margin: 0 auto;
 }
