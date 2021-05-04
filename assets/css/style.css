@@ -422,7 +422,8 @@ h3:hover, h5:hover {
 /*------/ Button /------*/
 .button {
   display: inline-block;
-  padding: .3rem .6rem;
+  padding: 1.0rem 1.0rem;
+  padding-bottom: .5rem;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -455,6 +456,12 @@ h3:hover, h5:hover {
 .button-big {
   padding: .9rem 2.3rem;
   font-size: 1.2rem;
+}
+
+.button-small {
+  padding: .35rem .4rem;
+  margin: .5rem;
+  
 }
 
 .button-rouded {
@@ -963,7 +970,7 @@ h3:hover, h5:hover {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 2rem 3% 2rem 4%;
 }
 
 .work-content .w-more {
@@ -1147,7 +1154,7 @@ h3:hover, h5:hover {
   }
 }
 
-.php-email-form .error-message {
+.contact-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1156,7 +1163,7 @@ h3:hover, h5:hover {
   font-weight: 600;
 }
 
-.php-email-form .sent-message {
+.contact-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1165,14 +1172,14 @@ h3:hover, h5:hover {
   font-weight: 600;
 }
 
-.php-email-form .loading {
+.contact-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.php-email-form .loading:before {
+.contact-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1185,26 +1192,26 @@ h3:hover, h5:hover {
   animation: animate-loading 1s linear infinite;
 }
 
-.php-email-form input, .php-email-form textarea {
+.contact-form input, .contact-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.php-email-form input:focus, .php-email-form textarea:focus {
+.contact-form input:focus, .contact-form textarea:focus {
   border-color: #FEB857;
 }
 
-.php-email-form input {
+.contact-form input {
   padding: 10px 15px;
 }
 
-.php-email-form textarea {
+.contact-form textarea {
   padding: 12px 15px;
   margin-bottom: 0;
 }
 
-.php-email-form button[type="submit"] {
+.contact-form button[type="submit"] {
   background: #FEB857;
   border: 0;
   padding: 10px 24px;
@@ -1212,7 +1219,7 @@ h3:hover, h5:hover {
   transition: 0.4s;
 }
 
-.php-email-form button[type="submit"]:hover {
+.contact-form button[type="submit"]:hover {
   background: black;
   box-shadow: 0 0 0 3px #e99b30 ;
 }
