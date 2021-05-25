@@ -886,7 +886,7 @@ h3:hover, h5:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #1B2C2E;
-  box-shadow: 0 0 0 10px #1B2C2E;
+  box-shadow: 0 0 0 10px #e99b30;
 }
 
 .service-box .service-ico {
